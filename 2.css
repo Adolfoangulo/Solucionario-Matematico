@@ -1,0 +1,156 @@
+html,
+body {
+		align-items: center;
+	justify-content: center;
+
+}
+
+.box {
+	display: flex;
+}
+
+.box .inner {
+	width: 760px;
+	height: 200px;
+	line-height: 200px;
+	font-size: 4em;
+	font-family: sans-serif;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.box .inner:first-child {
+	background-color: rgb(167, 92, 157);
+	color: rgb(94, 29, 100);
+	transform-origin: right;
+	transform: perspective(100px) rotateY(-15deg);
+}
+
+.box .inner:last-child {
+	background-color: rgb(126, 44, 248);
+	color: antiquewhite;
+	transform-origin: left;
+	transform: perspective(100px) rotateY(15deg);
+}
+
+.box .inner span {
+	position: absolute;
+	animation: marquee 5s linear infinite;
+}
+
+.box .inner:first-child span {
+	animation-delay: 2.5s;
+	left: -100%;
+}
+
+@keyframes marquee {
+	from {
+		left: 100%;
+	}
+
+	to {
+		left: -100%;
+	}
+}
+
+
+.caja {
+	display: flex;
+}
+
+.caja .inner {
+	width: 760px;
+	height: 200px;
+	line-height: 200px;
+	font-size: 4em;
+	font-family: sans-serif;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.caja .inner:first-child {
+	background-color: lightseagreen;
+	color: rgb(10, 68, 68);
+	transform-origin: right;
+	transform: perspective(100px) rotateY(-15deg);
+}
+
+.caja .inner:last-child {
+	background-color: rgb(82, 80, 196);
+	color: white;
+	transform-origin: left;
+	transform: perspective(100px) rotateY(15deg);
+}
+
+.caja .inner span {
+	position: absolute;
+	animation: marquee 5s linear infinite;
+}
+
+.caja .inner:first-child span {
+	animation-delay: 2.5s;
+	left: -100%;
+}
+
+@keyframes marquee {
+	from {
+		left: 100%;
+	}
+
+	to {
+		left: -100%;
+	}
+}
+
+
+
+.cuadro {
+	display: flex;
+}
+
+.cuadro .inner {
+	width: 760px;
+	height: 200px;
+	line-height: 200px;
+	font-size: 4em;
+	font-family: sans-serif;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.cuadro .inner:first-child {
+	background-color: rgb(243, 183, 71);
+	color: rgb(8, 8, 8);
+	transform-origin: right;
+	transform: perspective(100px) rotateY(-15deg);
+}
+
+.cuadro .inner:last-child {
+	background-color: rgb(202, 125, 25);
+	color: antiquewhite;
+	transform-origin: left;
+	transform: perspective(100px) rotateY(15deg);
+}
+
+.cuadro .inner span {
+	position: absolute;
+	animation: marquee 5s linear infinite;
+}
+
+.cuadro .inner:first-child span {
+	animation-delay: 2.5s;
+	left: -100%;
+}
+
+@keyframes marquee {
+	from {
+		left: 100%;
+	}
+
+	to {
+		left: -100%;
+	}
+}
